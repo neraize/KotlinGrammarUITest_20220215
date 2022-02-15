@@ -17,6 +17,7 @@
     <EditText
         android:id="@+id/edtId"
         android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
         android:layout_height="wrap_content"/>
 
     <TextView
@@ -27,6 +28,7 @@
     <EditText
         android:id="@+id/edtPass"
         android:layout_width="match_parent"
+        android:inputType="textPassword"
         android:layout_height="wrap_content"/>
 
     <Button
